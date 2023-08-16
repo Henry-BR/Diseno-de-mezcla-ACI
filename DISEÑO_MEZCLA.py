@@ -315,9 +315,3 @@ for i in lista:
 
     #GUARDAR PDF
     doc.output(f'Y:/Downloads/Documents/DISEÑO_{fc_base}_TMN_{tmn_tex}_{cemento_fabrica}_{tipo}.pdf')
-    '''import pandas as pd
-    data = pd.read_excel("Z:\TESIS - PYTHON\Formato_datos.xlsx",sheet_name="ENTRENAMIENTO")
-    cantidad_cemento = []
-    for i in range(100):
-        data["Cantidad cemento"]=[20,20,10,10,20]
-    data.to_excel('data_modificado.xlsx', index=False)'''
